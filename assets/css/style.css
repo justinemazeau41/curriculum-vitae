@@ -89,19 +89,12 @@ header, footer{
     background-color: #ffffff; /* blanc */
 }
 .col-gauche{
-<<<<<<< HEAD
-  padding-left: 30px;
-  width: 30%;
-  background-color: #e3e3e3;
-=======
-    overflow: hidden;
    margin: 0;
     padding: 20px 15px;
   padding-left: 30px;
   width: 30%;
   background-color: #e3e3e3;
   border-bottom: 1px solid #e3e3e3; /* ASTUCE ANTI-BLANC */
->>>>>>> 47c2ae4 (Mes changements en cours)
 }
 .col-droite p {
   text-align: justify;
@@ -176,18 +169,12 @@ display: flex;
     display: flex;
     flex-direction: column;
 }
-<<<<<<< HEAD
-.col-gauche ul {
-  margin: 0;
-  padding: 0;
-=======
 .col-gauche h3 {
     margin-top: 0;
 }
 .col-gauche ul {
   margin: 0;
   padding-left: 0;
->>>>>>> 47c2ae4 (Mes changements en cours)
 }
 .col-gauche-1 {
   display: flex;
@@ -198,34 +185,22 @@ display: flex;
   list-style: none;
 }
 .icon-bleu {
-<<<<<<< HEAD
-  padding-right: 50px;
-=======
   padding-right: 45px;
->>>>>>> 47c2ae4 (Mes changements en cours)
   display: block;
   height: 70px;
   width: auto;
   filter: brightness(0) saturate(100%) invert(53%) sepia(83%) saturate(453%) hue-rotate(142deg) brightness(92%) contrast(92%);
 }
 .col-gauche hr{
-<<<<<<< HEAD
-  width: 85%;
-=======
  width:85%;
  margin: 10px 0;
->>>>>>> 47c2ae4 (Mes changements en cours)
 }
 .Langues {
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
-}
-=======
+    height: 30px;
     padding-right: 45px;
-    margin: 2px 0;
-    height: 26px;
 }
 hr{
   margin-top: 10px;
@@ -236,13 +211,11 @@ hr{
     padding-left: 0;
     margin: 0;
 }
-
 .qualités li {
     position: relative;
     padding-left: 18px;
     margin-bottom: 6px;
 }
-
 .qualités li::before {
     content: "";
     position: absolute;
@@ -257,13 +230,11 @@ hr{
     padding-left: 0;
     margin: 0;
 }
-
 .Centres-intéret li {
     position: relative;
     padding-left: 18px;
     margin-bottom: 6px;
 }
-
 .Centres-intéret li::before {
     content: "";
     position: absolute;
@@ -271,6 +242,7 @@ hr{
     top: 0.55em;
     width: 8px;
     height: 8px;
-    background-color: #1eaeb5;
+    background-color: #17abb3;
+}.container .col-droite{
+  padding-top: 20px;
 }
->>>>>>> 47c2ae4 (Mes changements en cours)
